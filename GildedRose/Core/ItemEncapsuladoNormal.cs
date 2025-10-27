@@ -11,9 +11,9 @@ namespace GildedRoseKata.Core
     /// Los ítems normales degradan su calidad en 1 por día,
     /// y el doble de rápido una vez pasada la fecha de venta (SellIn < 0).
     /// </summary>
-    public class NormalItemEncapsulado : ItemEncapsuladoBase
+    public class ItemEncapsuladoNormal : ItemEncapsuladoBase
     {
-        public NormalItemEncapsulado(Item item) : base(item)
+        public ItemEncapsuladoNormal(Item item) : base(item)
         {
         }
 
